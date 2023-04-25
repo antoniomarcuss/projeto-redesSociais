@@ -39,13 +39,12 @@ main {
   }
   
   #telefone img {
-    flex: 1;
     width: 300px;
     height: 600px;
   }
   
   #tela {
-    width: 255px;
+    width: 257px;
     height: 449px;
     position: absolute;
     top: 51%;
@@ -74,6 +73,29 @@ main {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.614);
     transition: transform 0.3s,border 0.5s;
 }
+
+@media screen and (max-width:330px) {
+    #telefone img {
+        width: 200px;
+        height: 401px;
+      }
+
+      #tela {
+        width: 170px;
+        height: 300px;
+        position: absolute;
+        top: 51%;
+        left: 50%;
+        transform: translate(-50%, -51%);
+      }
+
+      #redes-sociais img {
+        width: 30px;
+        margin: 6px;
+        
+    }
+}
+
 
 @media screen and (min-width:500px) {
     main{
